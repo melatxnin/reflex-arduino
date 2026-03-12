@@ -1,10 +1,13 @@
-# Arduino RGB Reflex Game (WOKWI)
+# Arduino Reflex (WOKWI)
 
-Simulation of a reflex game using Arduino.
+A reflex game running on Arduino.
+
+<img src="preview.gif" width="500">
 
 ## Components 
 
 - Arduino Uno
+- Half Breadboard
 - LCD 16x2
 - RGB LED
 - Resistor 220Ω (4)
