@@ -2,7 +2,7 @@
   REFLEX GAME
 
   Controls:
-  Press the button matching the displayed colour
+  Press the button matching the displayed colour:
   Red button     ->  red
   Green button   ->  green
   Blue button    ->  blue
@@ -26,24 +26,17 @@ constexpr int blueLedPin = A5;
 // settings
 constexpr int resultDelay = 2500;
 
-// states
+// game states
 enum GameState
 {
   WAITING_START,
   WAITING_INPUT,
   SHOW_RESULT
 };
+
 GameState gameState = WAITING_START;
 
-// function prototypes
-void setColour(bool redOn, bool greenOn, bool blueOn);
-void showTargetColour(int colour);
-int readPressedButton();
-void startNewRound();
-void showErrorResult();
-void showSuccessResult();
-
-// game state variables
+// state variables
 int targetColour = 0;
 unsigned long waitDuration = 0;
 unsigned long stateStartTime = 0;
