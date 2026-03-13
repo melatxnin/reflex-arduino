@@ -1,6 +1,6 @@
-# Arduino Reflex (WOKWI)
+# Reaction Game - Arduino (Wokwi)
 
-A reflex game running on Arduino.
+A colour-based reaction game built with Arduino.
 
 <img src="preview.gif" width="500">
 
